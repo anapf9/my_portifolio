@@ -1,26 +1,19 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">my_portifolio</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="container w-full bg-apresentation bg-cover bg-center">
+    <div class="bg"></div>
+    <div class="grid grid-cols-3 w-full">
+      <div class="col-span-2 flex content-end items-center mx">
+        <div class="w-auto">
+          <div class="text-4xl text-left flex-wrap text-white">
+            <p>Olá, eu sou a Ana,</p>
+            <p>Estudante de Engenharia da computação &</p>
+            <p>Desenvolvedora Fullstack Junior</p>
+          </div>
+        </div>
       </div>
+      <!-- <div class="col-span-1 flex content-end items-center">
+        <img class src="@/img/test.jpg" />
+      </div>-->
     </div>
   </div>
 </template>
@@ -39,8 +32,6 @@ export default {}
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
